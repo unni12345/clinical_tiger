@@ -175,7 +175,7 @@ def generate_answer(user_query: str, context: str, references: str) -> str:
     References:
     {references}
 
-    Now, provide your final answer with correct inline Vancouver-style citations in exact location:
+    Now, provide your final answer with correct inline Vancouver-style citations in exact location (ONLY ADD CITATION AND DON'T ADD REFERENCE): 
     """
 
     return llm.invoke(prompt).content
@@ -252,7 +252,7 @@ def generate_verified_answer(
     References:
     {references}
 
-    Now, provide your final, verified answer with correct inline Vancouver-style citations in exact location:
+    Now, provide your final verified answer with correct inline Vancouver-style citations in exact location (ONLY ADD CITATION AND DON'T ADD REFERENCE): 
     """
 
     return llm.invoke(prompt).content
