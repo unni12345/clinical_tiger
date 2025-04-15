@@ -8,30 +8,6 @@ A section-aware, multimodal Retrieval-Augmented Generation (RAG) system that ext
 
 ## 🏗️ Architecture
 
-```
-PDF Monograph
-     │
-     ▼
-┌──────────────┐
-│ Chunker      │
-│ (text/image) │
-└────┬─────────┘
-     │
-     ▼
-  Chunks (JSON)
-     │
-     ▼
-┌──────────────┐
-│ Embed +      │
-│ Qdrant Store │◄────────────┐
-└────┬─────────┘             │
-     │                       │
-     ▼                       │
-Query ─────────► Agentic Pipeline ─────────► Answer + Inline Citations
-                         │
-                         ├──▶ Chain-of-Verification (optional)
-                         └──▶ Image Path + Caption (if requested)
-```
 ![full_flow_clinical_tiger](https://github.com/user-attachments/assets/15da8e06-853b-4724-b985-bb6749046339)
 
 ![image_flow_clinical_tiger](https://github.com/user-attachments/assets/08b5610f-40c8-40d2-845a-1e55cd1da5f8)
