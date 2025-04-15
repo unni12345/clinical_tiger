@@ -65,7 +65,6 @@ QDRANT_API_KEY=your_qdrant_key
 - Extracts `text`, `images`, and `tables` from PDFs using:
   - Sentence chunking via spaCy
   - Image captioning via OpenAI Vision (GPT-4o)
-  - Table detection (planned)
 - Outputs to: `data/chunks.json`
 
 ### `src/embed_and_store.py`
