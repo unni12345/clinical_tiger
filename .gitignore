@@ -1,0 +1,4 @@
+venv/
+.env
+config.toml
+.DS_Store
