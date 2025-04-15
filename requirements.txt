@@ -1,0 +1,22 @@
+# Core AI/ML Stack
+langchain==0.3.23          # Latest stable release with Pydantic 2 support [1][8]
+langchain-community==0.3.21
+langchain-openai==0.3.12
+openai==1.73.0             # GPT-4o mini with HIPAA-compliant endpoints [2][9]
+qdrant-client==1.13.0      # Hybrid search engine with BM25 support [3][10]
+tiktoken>=0.7.0            # Tokenizer for GPT-4o models [4]
+spacy==3.8.4
+camelot-py
+
+# Embedding model stack (ClinicalBERT)
+transformers>=4.36
+torch>=2.0.0
+scikit-learn>=1.2   # required by transformers pipelines
+
+# PDF Handling
+PyMuPDF>=1.22.0
+
+# Data Handling
+pandas==2.2.3              # Latest stable with PyArrow backend [5]
+python-dotenv==1.0.0       # Secure credential management [6][11]
+streamlit==1.44.0          # HIPAA-compliant UI framework [7][12]
