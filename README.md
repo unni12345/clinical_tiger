@@ -137,8 +137,30 @@ Inline:
 
 References:
 ```
-[1] Lipitor.pdf => Section SIDE EFFECTS => Page 12 => URL https://pdf.hres.ca/...
+Baheti et al. (2024) – Verification before answering: How Answer Verification Can Improve Factuality in Multi-Hop QA.
+→ Basis for your chain-of-verification pipeline.
+https://aclanthology.org/2024.findings-acl.212
+
+Jaiswal et al. (2023) – RAGAS: An Evaluation System for Retrieval-Augmented Generation.
+→ Informs future evaluation metrics for grounding, relevance, and answer faithfulness.
+https://arxiv.org/abs/2309.02016
+
+Alsentzer et al. (2019) – ClinicalBERT: Modeling Clinical Notes and Predicting Hospital Readmission.
+→ Embedding model used for chunk representation and semantic retrieval.
+https://arxiv.org/abs/1904.05342
+
+Dettmers et al. (2023) – QLoRA: Efficient Finetuning of Quantized LLMs.
+→ Supports your proposed personalization pathway using low-rank adapters.
+https://arxiv.org/abs/2305.14314
 ```
+---
+
+## 🩺 UI
+
+![ui-clinical-tigetr](https://github.com/user-attachments/assets/d3b2ca66-a6bc-4283-90d4-efb55000b617)
+
+
+---
 
 ---
 
